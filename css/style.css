@@ -1,26 +1,105 @@
-body{
-    background-color: #e3fdfd;
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
 }
 hr{
-    background-color: transparent;
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #71c9ce;
-    border-width: 8px;
-    width: 5%;
+  /* border-style: dotted; */
+  border-style: dotted none none none;  
+  border-width: 8px;
+  width: 10%;
+  color: #71c9ce;
 }
-h1{
-    color: #71c9ce;
+/* Top Container start*/
+.top-container {
+  background-color: #bce6eb;
+  position: relative;
+  padding-top: 100px;
 }
-h2{
-    color: #71c9ce;
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 6rem;
+  margin: 50px auto 10px;
+  color: #66bfbf;
 }
-h3{
-    color: #71c9ce;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #66bfbf;
 }
-a{
-    text-decoration: none;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
 }
-p{
-    text-align: justify
+a {
+  text-decoration: none;
+  color: #11999e;
 }
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: auto;
+}
+.bottom-cloud {
+  position: absolute;
+  left: auto;
+  top: auto;
+}
+/* Top Container End*/
+
+
+/* Middle container start */
+.middle-container{
+  background-color: #e1f1f3;
+}
+
+.profile-pic{
+  margin-top: 5%;
+  width: 300px;
+}
+.profile-bio{
+  margin-bottom: 30px;
+}
+/* Skills Row Start*/
+.skills {
+  position: relative;
+}
+.skill-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+}
+.react {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+.node {
+  margin-left: 30px;
+  width: 25%;
+  float:right;
+}
+.skill-h3{
+  text-align: left;
+}
+.skill-p{
+  text-align: justify;
+  line-height: 2;
+}
+/* Skills Row End */
+
+/* Middle container End */
+
+/* Bottom Container Start*/
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top: 50px;
+}
+.footer-link{
+margin-right: 5%;
+margin-left: 5%;
+}
+.footer-trademark{
+  color: #EAF6F6;
+}
+/* Bottom Container End*/
