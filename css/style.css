@@ -2,13 +2,15 @@ body {
   margin: 0px;
   text-align: center;
   font-family: "Merriweather", serif;
+  line-height: 2;
 }
-hr{
+hr {
   /* border-style: dotted; */
-  border-style: dotted none none none;  
+  border-style: dotted none none none;
   border-width: 8px;
   width: 10%;
   color: #71c9ce;
+  margin: 50px auto;
 }
 /* Top Container start*/
 .top-container {
@@ -46,23 +48,25 @@ a {
   left: auto;
   top: auto;
 }
-.mountain-img{
-max-width: 100%;
+.mountain-img {
+  max-width: 100%;
 }
 /* Top Container End*/
 
-
 /* Middle container start */
-.middle-container{
+.middle-container {
   background-color: #e1f1f3;
+  padding-bottom: 30px;
 }
 
-.profile-pic{
-  margin-top: 5%;
+.profile-pic {
+  margin-top: 30px;
   width: 300px;
 }
-.profile-bio{
+.profile-bio {
+  margin: auto;
   margin-bottom: 30px;
+  width: 60%;
 }
 /* Skills Row Start*/
 .skills {
@@ -80,29 +84,56 @@ max-width: 100%;
 .node {
   margin-left: 30px;
   width: 25%;
-  float:right;
+  float: right;
 }
-.skill-h3{
+.skill-h3 {
   text-align: left;
 }
-.skill-p{
+.skill-p {
   text-align: justify;
-  line-height: 2;
 }
 /* Skills Row End */
-
 /* Middle container End */
 
 /* Bottom Container Start*/
-.bottom-container{
-  background-color: #66BFBF;
-  padding-top: 50px;
+.bottom-container {
+  background-color: #66bfbf;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
-.footer-link{
-margin-right: 5%;
-margin-left: 5%;
+.contact-massage {
+  margin: auto;
+  width: 60%;
+  padding-bottom: 30px;
 }
-.footer-trademark{
-  color: #EAF6F6;
+.btn {
+  background: #7ed1e6;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.btn:hover {
+  border: none;
+  background: #2ed1e6;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.footer-link {
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-link:hover{
+  color: aliceblue;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 15px 0 0 0;
 }
 /* Bottom Container End*/
